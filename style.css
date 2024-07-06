@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f1f2f4;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1334px;
+    margin: auto;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    color: #474748;
+    background-color: white;
+    z-index: 10;
+}
+
+.logo {
+    width: 160px;
+}
+
+.searchbar {
+    height: 40px;
+    width: 560px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    color: #474748;
+    background-color: #F0F5FF;
+}
+
+.searchbar i {
+    font-size: 22px;
+    margin: 0px 10px;
+
+}
+
+.searchbar input {
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 17px;
+}
+
+.category {
+    height: 126px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: white;
+    margin: 10px 0px;
+}
+
+.slidecontainer {
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider {
+    height: 220px;
+    width: 100%;
+    background-image: url(https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/9e9aa250dfecdbc3.jpg?q=20);
+    position: relative;
+}
+
+.slidericon {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slideleft {
+    height: 88px;
+    width: 40px;
+    color: #8b8b8b;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slideright {
+    height: 88px;
+    width: 40px;
+    color: #8b8b8b;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.productsection1 {
+    height: 345px;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    gap: 15px;
+}
+
+.psright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.psright img {
+    height: 320px;
+    width: 210px;
+}
+
+.psleft {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.productheader {
+    height: 80px;
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productheader h3 {
+    color: #212121;
+}
+
+.productheader i {
+    height: 24px;
+    width: 24px;
+    color: white;
+    background-color: #1c41dc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+
+.product {
+    height: 250px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px groove #bdbdbd;
+    border-radius: 3px;
+    margin: 0px 13px;
+}
+
+.product img {
+    height: 150px;
+    width: 150px;
+    padding: 0px 10px;
+}
+
+.productinfo {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.productinfo p {
+    font-size: 0.9rem;
+}
+
+.productinfo h5 {
+    color: #212121;
+    margin-top: 5px;
+}
+
+.productgroup {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.productright{
+    position: absolute;
+    height: 88px;
+    width: 40px;
+    background-color: white;
+    color: #8b8b8b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 32%;
+    right: 0;
+    box-shadow: -2px 0px 3px 1px rgba(222, 222, 222, 1);
+}
+
+.container-img div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.imgcontainer div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    height: 279px;
+    width: 382px;
+    padding-top: 15px;
+}
+
+.brandirectory{
+    height:550px ;
+    width: 100%;
+    padding-top: 50px;
+    margin-top: 29px;
+    color: #565656;
+    background-color: #eee;
+
+
+}
+
+.linkheader {
+    padding-left: 15px;
+}
+
+.directorylink{
+    margin-top: 15px;
+    padding-left: 15px;
+
+}
+
+.directorylink span {
+    font-size: 0.9rem;
+}
+
+.directorylink a{
+    font-size: 0.8rem;
+    color: #565656;
+}
+
+footer{
+    height: 320px;
+    width: 100%;
+    margin: auto;
+    background-color: #212121;
+}
+
+.footerpara{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footerparainfo{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    font-weight: 600;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.footerparahead p{
+    font-size: 0.8rem;
+    color: #878787;
+}
+
+.footerparainfo a{
+    color: white;
+}
+
+.footerbtm{
+    height: 70px;
+    width: 100%;
+    border-top: 1px groove #454d5e;
+}
+
+.footerbtmgroup{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 0.7rem;
+    padding: 0px 30px;
+
+}
+
+.space {
+    height: 200px;
+}
